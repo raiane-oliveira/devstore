@@ -8,7 +8,10 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: 'devstore',
+  title: {
+    template: '%s | devstore',
+    default: 'devstore',
+  },
   description:
     'E-commerce project to learn about Next.js App Router using Server Components.',
 }
